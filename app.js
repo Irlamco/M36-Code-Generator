@@ -10,10 +10,10 @@ document.addEventListener("click", () => {
     main.style.display = "block";
 })
 
-document.addEventListener("keydown", (e) => {
-    keyPressed.textContent = e.which;
-    key.textContent = e.key.toUpperCase();
-    which.textContent = e.which;
-    code.textContent = e.code;
+document.addEventListener("keydown", (event) => {
+    keyPressed.textContent = event.which;
+    key.textContent = event.key.toUpperCase();
+    which.textContent = event.which;
+    code.textContent = event.code;
 });
 
